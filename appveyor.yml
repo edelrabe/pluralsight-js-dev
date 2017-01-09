@@ -2,17 +2,17 @@
 environment:
   martix:
     # node.js
-    - nodejs_version: "6"
+    #- nodejs_version: "6" WTF?
 
 # install scripts (runs after repo cloning)
 install:
   # get the latest Node.js or io.js
-  - ps: Install-Product node $env:nodejs_version
+  - ps: Install-Product node 6
   # install modules
   - npm install
 
 # post install
-test_scripts:
+test_script:
   # output info
   - node --version
   - npm --version

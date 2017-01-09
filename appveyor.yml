@@ -1,0 +1,23 @@
+environment:
+  martix:
+  # node.js
+  - nodejs_version: "6"
+
+# install scripts (runs after repo cloning)
+install:
+  # get the latest Node.js or io.js
+  - ps: Install-Product node $env:nodejs_version
+  # install modules
+  - npm install
+
+# post install
+test_scripts:
+  # output info
+  - node --version
+  - npm --version
+  # run tests
+  - npm test
+
+# don't actually build
+build: off
+

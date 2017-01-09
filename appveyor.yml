@@ -1,7 +1,7 @@
 environment:
   martix:
-  # node.js
-  - nodejs_version: "6"
+    # node.js
+    - nodejs_version: "6"
 
 # install scripts (runs after repo cloning)
 install:

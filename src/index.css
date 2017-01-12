@@ -6,3 +6,7 @@ table th {
   padding: 5px;
   font-weight: bold;
 }
+
+table tr.row {
+  font-style: italic;
+}

@@ -1,16 +1,1 @@
-{
-  "users": [
-    {
-      "id": 20303549,
-      "firstName": "Serenity",
-      "lastName": "Brown",
-      "email": "Eliza_Okuneva22@hotmail.com"
-    },
-    {
-      "id": 93421624,
-      "firstName": "Bette",
-      "lastName": "Buckridge",
-      "email": "Gilbert.Ratke50@yahoo.com"
-    }
-  ]
-}
+{"users":[{"id":5472002,"firstName":"Ethel","lastName":"Conroy","email":"Constantin_Shanahan78@gmail.com"},{"id":55866445,"firstName":"Gino","lastName":"Mertz","email":"Teagan_Wiza91@hotmail.com"},{"id":26745968,"firstName":"Benjamin","lastName":"Schumm","email":"Irwin_Will@gmail.com"},{"id":69653752,"firstName":"Reyes","lastName":"Keeling","email":"Wilbert.Dickens@hotmail.com"},{"id":94202794,"firstName":"Shemar","lastName":"Ziemann","email":"Malachi.Schumm@yahoo.com"}]}
